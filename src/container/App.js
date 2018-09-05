@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Header } from './common/Header';
-import { Footer } from './common/Footer';
-import { getEvents } from './services/communication';
-import { MainPage } from './MainPage';
+import { Header } from '../component/Header';
+import { Footer } from '../component/Footer';
+import { getEvents } from '../services/communication';
+import { MainPage } from '../component/MainPage';
 
 class App extends Component {
   constructor(){

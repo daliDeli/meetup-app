@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { EVENTS_URL } from '../constants';
+import { EVENTS_URL } from '../util/constants';
 
 export const getEvents = () => {
     return axios({

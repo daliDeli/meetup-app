@@ -1,10 +1,9 @@
 import React from 'react';
 import Modal from 'react-modal';
 import { EventInfo } from './EventInfo';
-import { modalStyle } from './constants';
+import { modalStyle } from '../util/constants';
 
 export const MainPage = ({ events, eventNumber, openModal, modalIsOpen, closeModal }) => {
-
     return (
         <main id='events-list-container'>
 
