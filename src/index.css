@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Yellowtail");
+footer {
+  background: black;
+  color: gray;
+  height: 30px;
+  padding: 1%; }
+
+header {
+  font-size: 35px;
+  font-family: 'Yellowtail',arial,sans-serif;
+  height: 20%;
+  background: #F64060;
+  color: white;
+  margin-bottom: 2%;
+  border-bottom: 3px black solid; }
+
+.events-list-container {
+  min-height: calc(100vh - 95px - 30px);
+  width: 100%;
+  margin: 0 auto; }
+
+#events-number {
+  color: white;
+  background: black;
+  width: 30%;
+  margin: 0 auto;
+  padding: 4px 1px; }
+  #events-number span {
+    color: #F64060;
+    font-family: 'Yellowtail',arial,sans-serif; }
+
+.events-preview {
+  margin: 1% auto;
+  border: 1px solid gray;
+  background: white;
+  width: 70%; }
+  .events-preview h2 {
+    padding: 1%;
+    display: block;
+    color: white;
+    background: black; }
+  .events-preview h3 {
+    padding: 5px 0px; }
+
+.events-preview:hover {
+  background: #F64060;
+  cursor: pointer; }
+  .events-preview:hover h3 {
+    color: white; }
+
+#events-info {
+  text-align: justify;
+  font-weight: bolder; }
+  #events-info h2,
+  #events-info h3 {
+    margin: 10px 0px; }
+  #events-info h2 {
+    text-align: center;
+    color: #F64060; }
+  #events-info p {
+    font-weight: normal;
+    line-height: 1.4; }
+  #events-info button {
+    margin: 10px;
+    padding: 6px 22px;
+    font-weight: bold;
+    font-size: 16px;
+    background: white;
+    color: #F64060;
+    outline: none; }
+  #events-info button:hover {
+    cursor: pointer; }
+  #events-info button:active {
+    background: black;
+    color: white; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: sans-serif;
+  text-align: center; }

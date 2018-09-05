@@ -1,0 +1,39 @@
+.events-list-container{
+    min-height: calc(100vh - 95px - 30px);
+    width: 100%;
+    margin: 0 auto;
+}
+#events-number{
+    color: white;
+    background: black;
+    width: 30%;
+    margin: 0 auto;
+    padding: 4px 1px;
+    span{
+        color: #F64060;
+        font-family:'Yellowtail',arial,sans-serif; 
+    }
+}
+.events-preview {
+    margin: 1% auto;
+    border: 1px solid gray;
+    background: white;
+    width: 70%;
+    h2 {
+        padding: 1%;
+        display: block;
+        color: white;
+        background: black;
+    }
+    h3{
+        padding: 5px 0px;
+    }
+}
+
+.events-preview:hover {
+    background: #F64060;
+    cursor: pointer;
+    h3{
+        color: white;
+    }
+}

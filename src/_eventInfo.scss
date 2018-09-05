@@ -1,0 +1,32 @@
+#events-info {
+    text-align: justify;
+    font-weight: bolder;
+    h2,
+    h3 {
+        margin: 10px 0px;
+    }
+    h2 {
+        text-align: center;
+        color: #F64060;
+    }
+    p {
+        font-weight: normal;
+        line-height: 1.4;
+    }
+    button {
+        margin: 10px;
+        padding: 6px 22px;
+        font-weight: bold;
+        font-size: 16px;
+        background: white;
+        color: #F64060;
+        outline: none;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    button:active{
+        background: black;
+        color: white;
+    }
+}
